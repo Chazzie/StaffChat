@@ -1,0 +1,14 @@
+name: staffChat
+version: 1
+main: chat.Main
+description: staffchat plugin
+
+commands:
+  staffchat:
+    description: speak in staffchat
+    aliases: [sc]
+
+permissions:
+  staffchat.use:
+    description: staffchat usage
+    default: false
