@@ -1,0 +1,14 @@
+name: staffChat_nl
+version: 1.5
+main: chat.Main
+description: staffchat plugin
+
+commands:
+  staffchat:
+    description: praat in staffchat
+    aliases: [sc]
+
+permissions:
+  staffchat.use:
+    description: staffchat gebruiken
+    default: false
